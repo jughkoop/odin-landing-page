@@ -18,7 +18,6 @@ header {
 ul {
     list-style-type: none;
     display: flex;
-    
 }
 
 a {
@@ -27,4 +26,48 @@ a {
     color: #E5E7EB;
     text-decoration-style: none;
     padding: 8px;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 150px 0px;
+    gap: 48px;
+}
+
+.hero-left {
+    width: 600px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.hero-text {
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    font-weight: bold;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 32px;
+    margin: 8px 0px;
+}
+
+.hero-img {
+    width: 600px;
+    height: 300px;
 }

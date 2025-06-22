@@ -71,3 +71,33 @@ button {
     width: 600px;
     height: 300px;
 }
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 64px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    margin-bottom: 128px;
+}
+
+.image-subtitle {
+    width: 200px;
+}
+
+.img-placeholder {
+    width: 200px;
+    height: 200px;
+    border: 4px #3882F6 solid;
+    border-radius: 16px;
+}
+
+.subtext {
+    text-align: center;
+}

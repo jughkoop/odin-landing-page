@@ -109,6 +109,8 @@ h2 {
 .quote {
     background-color: #E5E7EB;
     padding: 128px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-text {
@@ -116,7 +118,8 @@ h2 {
     font-style: italic;
     color: #1F2937;
     width: 800px;
-    padding: 0px 512px;
+    justify-content: center;
+    align-self: center;
 }
 
 .quote-author {
